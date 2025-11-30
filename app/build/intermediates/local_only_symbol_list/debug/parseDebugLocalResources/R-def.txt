@@ -1,0 +1,20 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btn_camera
+id btn_gallery
+id image_view
+id main
+id tv_result
+id tv_simple_instruction
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.AIPrescriptionReader
+style Theme.AIPrescriptionReader
+xml backup_rules
+xml data_extraction_rules

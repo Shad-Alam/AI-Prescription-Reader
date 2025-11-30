@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#f5f5f5">
+
+    <!-- Tips for User -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="💡 Tips: Good lighting + Clear handwriting + Straight photo"
+        android:textColor="#D35400"
+        android:textSize="12sp"
+        android:padding="8dp"
+        android:background="#FFEAA7"
+        android:gravity="center" />
+
+    <!-- Two buttons for Camera and Gallery -->
+    <Button
+        android:id="@+id/btn_camera"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="📷 Camera Diye Photo Tulun"
+        android:textSize="16sp"
+        android:background="@android:color/white"
+        android:textColor="@android:color/white"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/btn_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:text="🖼️ Gallery Theke Select Korun"
+        android:textSize="16sp"
+        android:background="@android:color/holo_red_dark"
+        android:textColor="@android:color/white"
+        android:gravity="center" />
+
+    <!-- Image Preview -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Preview:"
+        android:textStyle="bold"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+        android:scaleType="fitCenter"
+        android:padding="5dp" />
+
+    <!-- Extracted Text -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="📝 Extracted Text:"
+        android:textStyle="bold"
+        android:textSize="14sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E8F4FD"
+            android:padding="12dp"
+            android:text="Text extraction result will appear here..."
+            android:textColor="#2C3E50"
+            android:textSize="12sp" />
+    </ScrollView>
+
+    <!-- Simple Instructions -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="🧾 Simple Instructions:"
+        android:textStyle="bold"
+        android:textSize="14sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/tv_simple_instruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E8F5E9"
+            android:padding="12dp"
+            android:text="Simple instructions will appear here..."
+            android:textColor="#27AE60"
+            android:textSize="12sp" />
+    </ScrollView>
+
+</LinearLayout>
