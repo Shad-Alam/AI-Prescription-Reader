@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:padding="20dp"
+            android:background="@drawable/gradient_header"
+            android:paddingTop="40dp"
+            android:paddingBottom="30dp"
+            android:elevation="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="✅"
+                android:textSize="60sp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prescription Scanned Successfully"
+                android:textSize="22sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tvMode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mode: ML Kit (Offline)"
+                android:textSize="14sp"
+                android:textColor="#AAAAAA"
+                android:layout_marginTop="5dp"/>
+        </LinearLayout>
+
+        <!-- Progress Bar -->
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_marginBottom="30dp"
+            android:progressTint="#00E676"
+            android:indeterminate="true"
+            android:visibility="gone"/>
+
+        <!-- Scanned Image -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="6dp"
+            android:layout_marginBottom="25dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/ivPrescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@android:drawable/ic_menu_gallery"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#40000000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📷 Captured Image"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:layout_centerInParent="true"/>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Extracted Text Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            app:cardBackgroundColor="#1E1E1E"
+            app:cardElevation="4dp"
+            android:layout_marginBottom="25dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="25dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="15dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="📝 Extracted Text"
+                        android:textSize="18sp"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"/>
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:id="@+id/tvConfidence"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Confidence: 95%"
+                        android:textSize="12sp"
+                        android:textColor="#00E676"
+                        android:background="#1A4D33"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="5dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvResult"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Processing..."
+                    android:textSize="15sp"
+                    android:textColor="#DDDDDD"
+                    android:lineSpacingExtra="4dp"
+                    android:padding="15dp"
+                    android:background="#2A2A2A"
+                    android:layout_marginTop="10dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Medicine Analysis Card -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardAnalysis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            app:cardBackgroundColor="#1E1E1E"
+            app:cardElevation="4dp"
+            android:layout_marginBottom="25dp"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="💊 Medicine Analysis"
+                    android:textSize="18sp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:id="@+id/tvAnalysis"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Analyzing..."
+                    android:textSize="14sp"
+                    android:textColor="#DDDDDD"
+                    android:lineSpacingExtra="4dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Action Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="40dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnCopy"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:text="📋 Copy Text"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:background="#FFFFFF"
+                android:layout_marginEnd="10dp"
+                android:elevation="4dp"/>
+
+            <Button
+                android:id="@+id/btnShare"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:text="📤 Share"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:background="#00E676"
+                android:layout_marginStart="10dp"
+                android:elevation="4dp"/>
+        </LinearLayout>
+
+        <!-- Rescan Button -->
+        <Button
+            android:id="@+id/btnRescan"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="🔄 Scan Another Prescription"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="#2A2A2A"
+            android:layout_marginBottom="30dp"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,55 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">AI Prescription Scanner</string>
+
+    <!-- Main Activity -->
+    <string name="select_ocr_mode">Select OCR Mode</string>
+    <string name="auto_mode">Auto (Recommended)</string>
+    <string name="auto_mode_desc">Smart choice between online/offline</string>
+    <string name="mlkit_mode">ML Kit (Offline)</string>
+    <string name="mlkit_mode_desc">100% free, works without internet</string>
+    <string name="google_vision_mode">Google Vision (Online)</string>
+    <string name="google_vision_mode_desc">High accuracy, Bengali support</string>
+    <string name="start_scanning">Start Scanning</string>
+    <string name="recent_scans">Recent Scans</string>
+    <string name="scans_today">Scans Today</string>
+    <string name="average_accuracy">Average Accuracy</string>
+    <string name="api_calls_left">API Calls Left</string>
+
+    <!-- Camera Activity -->
+    <string name="position_prescription">Position prescription within frame</string>
+    <string name="capturing">Capturing...</string>
+    <string name="opening_gallery">Opening gallery...</string>
+    <string name="processing_gallery_image">Processing image from gallery...</string>
+    <string name="flash_on">Flash ON</string>
+    <string name="flash_off">Flash OFF</string>
+
+    <!-- Result Activity -->
+    <string name="scan_successful">Prescription Scanned Successfully</string>
+    <string name="extracted_text">Extracted Text</string>
+    <string name="confidence">Confidence: %s</string>
+    <string name="medicine_analysis">Medicine Analysis</string>
+    <string name="copy_text">Copy Text</string>
+    <string name="share">Share</string>
+    <string name="scan_another">Scan Another Prescription</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="processing">Processing...</string>
+    <string name="analyzing">Analyzing...</string>
+
+    <!-- Errors -->
+    <string name="error_no_internet">No internet connection</string>
+    <string name="error_camera_permission">Camera permission required</string>
+    <string name="error_processing_failed">Processing failed</string>
+    <string name="error_image_load_failed">Failed to load image</string>
+
+    <!-- Instructions -->
+    <string name="instruction_position">Ensure prescription is within green frame</string>
+    <string name="instruction_lighting">Make sure lighting is good</string>
+    <string name="instruction_focus">Tap to focus on text</string>
+    <string name="instruction_steady">Hold phone steady</string>
+
+    <!-- OCR Modes -->
+    <string name="ocr_auto">Auto</string>
+    <string name="ocr_mlkit">ML Kit</string>
+    <string name="ocr_google_vision">Google Vision</string>
+</resources>

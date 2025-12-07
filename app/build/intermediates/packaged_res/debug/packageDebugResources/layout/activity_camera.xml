@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/previewView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Scan Frame - ERROR FIXED -->
+    <FrameLayout
+        android:id="@+id/scanFrame"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent">
+
+        <!-- Border View - FIXED -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:background="@drawable/scan_border" /> <!-- CHANGED HERE -->
+
+    </FrameLayout>
+
+    <!-- Hint Text -->
+    <TextView
+        android:id="@+id/tvHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="#80000000"
+        android:padding="16dp"
+        android:text="Position prescription within frame"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <!-- Camera Controls -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/btnFlash"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/btn_circle"
+            android:text="⚡"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btnCapture"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginHorizontal="40dp"
+            android:background="@drawable/btn_capture"
+            android:text="●"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/btnSwitch"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/btn_circle"
+            android:text="🔄"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
