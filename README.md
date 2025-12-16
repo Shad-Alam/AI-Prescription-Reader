@@ -41,4 +41,3 @@ To transform confusing medical prescriptions into clear, simple instructions tha
 ## :point_right: Requirements
 - Android 5.0+ (API 21)
 - Camera permission
-- Google Play Services
