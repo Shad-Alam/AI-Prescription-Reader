@@ -42,10 +42,10 @@
 
         <Button
             android:id="@+id/btnFlash"
-            android:layout_width="56dp"
-            android:layout_height="56dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:text="⚡"
-            android:textSize="24sp"
+            android:textSize="20sp"
             android:background="@drawable/btn_circle" />
 
         <Button
@@ -59,10 +59,11 @@
 
         <Button
             android:id="@+id/btnSwitch"
-            android:layout_width="56dp"
-            android:layout_height="56dp"
-            android:text="🔄"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="↻"
             android:textSize="24sp"
+            android:textColor="#FFFFFF"
             android:background="@drawable/btn_circle" />
 
     </LinearLayout>

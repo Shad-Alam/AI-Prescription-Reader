@@ -58,7 +58,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="📱 ML Kit Scanner"
+                android:text="📱 AI Prescription Scanner"
                 android:textSize="20sp"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold"
@@ -97,13 +97,6 @@
                 android:gravity="center">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="📊"
-                    android:textSize="24sp"
-                    android:layout_marginBottom="5dp"/>
-
-                <TextView
                     android:id="@+id/tvScansToday"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -131,13 +124,6 @@
                 android:layout_weight="1"
                 android:orientation="vertical"
                 android:gravity="center">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="🎯"
-                    android:textSize="24sp"
-                    android:layout_marginBottom="5dp"/>
 
                 <TextView
                     android:id="@+id/tvAccuracy"

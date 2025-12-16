@@ -16,7 +16,6 @@ drawable corner_br
 drawable corner_tl
 drawable corner_tr
 drawable gradient_header
-drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable placeholder_prescription
 drawable scan_border
@@ -36,7 +35,6 @@ id tvAccuracy
 id tvAnalysis
 id tvConfidence
 id tvHint
-id tvMode
 id tvResult
 id tvScansToday
 layout activity_camera
@@ -45,6 +43,7 @@ layout activity_result
 layout activity_scanner
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap prescription
 string analyzing
 string api_calls_left
 string app_name

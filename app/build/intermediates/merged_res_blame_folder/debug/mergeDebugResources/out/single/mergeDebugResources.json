@@ -1,130 +1,150 @@
 [
     {
-        "merged": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-debug-44:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-main-46:/drawable/ic_launcher_foreground.xml"
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.aiprescriptionreader.app-pngs-37:/drawable-xxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-debug-44:/drawable_corner_bl.xml.flat",
-        "source": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-main-46:/drawable/corner_bl.xml"
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.aiprescriptionreader.app-main-43:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-debug-44:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-main-46:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.aiprescriptionreader.app-pngs-37:/drawable-xhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-debug-44:/layout_activity_camera.xml.flat",
-        "source": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-main-46:/layout/activity_camera.xml"
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/mipmap-hdpi_prescription.png.flat",
+        "source": "com.example.aiprescriptionreader.app-main-43:/mipmap-hdpi/prescription.png"
     },
     {
-        "merged": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-debug-44:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-main-46:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/drawable_scan_border.xml.flat",
+        "source": "com.example.aiprescriptionreader.app-main-43:/drawable/scan_border.xml"
     },
     {
-        "merged": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-debug-44:/layout_activity_main.xml.flat",
-        "source": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-main-46:/layout/activity_main.xml"
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/drawable_corner_tl.xml.flat",
+        "source": "com.example.aiprescriptionreader.app-main-43:/drawable/corner_tl.xml"
     },
     {
-        "merged": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-debug-44:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-main-46:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/layout_activity_scanner.xml.flat",
+        "source": "com.example.aiprescriptionreader.app-main-43:/layout/activity_scanner.xml"
     },
     {
-        "merged": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-debug-44:/layout_activity_result.xml.flat",
-        "source": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-main-46:/layout/activity_result.xml"
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.aiprescriptionreader.app-main-43:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-debug-44:/drawable_placeholder_prescription.xml.flat",
-        "source": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-main-46:/drawable/placeholder_prescription.xml"
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/drawable_btn_circle.xml.flat",
+        "source": "com.example.aiprescriptionreader.app-main-43:/drawable/btn_circle.xml"
     },
     {
-        "merged": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-debug-44:/drawable_corner_tl.xml.flat",
-        "source": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-main-46:/drawable/corner_tl.xml"
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/xml_backup_rules.xml.flat",
+        "source": "com.example.aiprescriptionreader.app-main-43:/xml/backup_rules.xml"
     },
     {
-        "merged": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-debug-44:/drawable_btn_gradient.xml.flat",
-        "source": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-main-46:/drawable/btn_gradient.xml"
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/drawable_corner_br.xml.flat",
+        "source": "com.example.aiprescriptionreader.app-main-43:/drawable/corner_br.xml"
     },
     {
-        "merged": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-debug-44:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-main-46:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.aiprescriptionreader.app-main-43:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-debug-44:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-main-46:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/drawable_btn_gradient.xml.flat",
+        "source": "com.example.aiprescriptionreader.app-main-43:/drawable/btn_gradient.xml"
     },
     {
-        "merged": "com.example.aiprescriptionreader.app-debug-44:/layout_activity_camera.xml.flat",
-        "source": "com.example.aiprescriptionreader.app-main-46:/layout/activity_camera.xml"
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.aiprescriptionreader.app-main-43:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-debug-44:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-main-46:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/layout_activity_camera.xml.flat",
+        "source": "com.example.aiprescriptionreader.app-main-43:/layout/activity_camera.xml"
     },
     {
-        "merged": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-debug-44:/drawable_scan_border.xml.flat",
-        "source": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-main-46:/drawable/scan_border.xml"
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.aiprescriptionreader.app-pngs-37:/drawable-xxxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-debug-44:/xml_backup_rules.xml.flat",
-        "source": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-main-46:/xml/backup_rules.xml"
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.aiprescriptionreader.app-main-43:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-debug-44:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-main-46:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.aiprescriptionreader.app-main-43:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-debug-44:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-main-46:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.aiprescriptionreader.app-pngs-37:/drawable-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-debug-44:/drawable_btn_capture.xml.flat",
-        "source": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-main-46:/drawable/btn_capture.xml"
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.aiprescriptionreader.app-main-43:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-debug-44:/drawable_btn_circle.xml.flat",
-        "source": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-main-46:/drawable/btn_circle.xml"
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.aiprescriptionreader.app-main-43:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-debug-44:/drawable_corner_tr.xml.flat",
-        "source": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-main-46:/drawable/corner_tr.xml"
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.aiprescriptionreader.app-main-43:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-debug-44:/drawable_corner_br.xml.flat",
-        "source": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-main-46:/drawable/corner_br.xml"
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/drawable_placeholder_prescription.xml.flat",
+        "source": "com.example.aiprescriptionreader.app-main-43:/drawable/placeholder_prescription.xml"
     },
     {
-        "merged": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-debug-44:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-main-46:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.aiprescriptionreader.app-main-43:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-debug-44:/layout_activity_scanner.xml.flat",
-        "source": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-main-46:/layout/activity_scanner.xml"
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/drawable_corner_tr.xml.flat",
+        "source": "com.example.aiprescriptionreader.app-main-43:/drawable/corner_tr.xml"
     },
     {
-        "merged": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-debug-44:/drawable_ic_launcher_background.xml.flat",
-        "source": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-main-46:/drawable/ic_launcher_background.xml"
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.aiprescriptionreader.app-main-43:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-debug-44:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-main-46:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/layout_activity_result.xml.flat",
+        "source": "com.example.aiprescriptionreader.app-main-43:/layout/activity_result.xml"
     },
     {
-        "merged": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-debug-44:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-main-46:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/drawable-ldpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.aiprescriptionreader.app-pngs-37:/drawable-ldpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-debug-44:/drawable_gradient_header.xml.flat",
-        "source": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-main-46:/drawable/gradient_header.xml"
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.aiprescriptionreader.app-main-43:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-debug-44:/drawable_border_green.xml.flat",
-        "source": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-main-46:/drawable/border_green.xml"
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.aiprescriptionreader.app-main-43:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-debug-44:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-main-46:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.aiprescriptionreader.app-pngs-37:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-debug-44:/xml_data_extraction_rules.xml.flat",
-        "source": "/home/yel/.gradle/daemon/8.13/com.example.aiprescriptionreader.app-main-46:/xml/data_extraction_rules.xml"
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/drawable_gradient_header.xml.flat",
+        "source": "com.example.aiprescriptionreader.app-main-43:/drawable/gradient_header.xml"
+    },
+    {
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.aiprescriptionreader.app-pngs-37:/drawable-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/drawable_border_green.xml.flat",
+        "source": "com.example.aiprescriptionreader.app-main-43:/drawable/border_green.xml"
+    },
+    {
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/drawable_btn_capture.xml.flat",
+        "source": "com.example.aiprescriptionreader.app-main-43:/drawable/btn_capture.xml"
+    },
+    {
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/drawable_corner_bl.xml.flat",
+        "source": "com.example.aiprescriptionreader.app-main-43:/drawable/corner_bl.xml"
+    },
+    {
+        "merged": "com.example.aiprescriptionreader.app-debug-41:/layout_activity_main.xml.flat",
+        "source": "com.example.aiprescriptionreader.app-main-43:/layout/activity_main.xml"
     }
 ]

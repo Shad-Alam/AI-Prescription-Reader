@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.aiprescriptionreader.app-mergeDebugResources-42:/values-ldrtl-v17/values-ldrtl-v17.xml",
+            "outputFile": "com.example.aiprescriptionreader.app-mergeDebugResources-39:/values-ldrtl-v17/values-ldrtl-v17.xml",
             "map": [
                 {
-                    "source": "/home/yel/.gradle/caches/8.13/transforms/02ddf3f4bb9ca687bc1d0c2c5cb05368/transformed/material-1.13.0/res/values-ldrtl-v17/values-ldrtl-v17.xml",
+                    "source": "/home/red/.gradle/caches/8.13/transforms/e674da648620b2a49a2872bc90c40308/transformed/material-1.13.0/res/values-ldrtl-v17/values-ldrtl-v17.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

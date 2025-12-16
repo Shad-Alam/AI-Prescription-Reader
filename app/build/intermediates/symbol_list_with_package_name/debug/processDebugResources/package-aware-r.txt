@@ -649,7 +649,6 @@ attr font
 attr fontFamily
 attr fontProviderAuthority
 attr fontProviderCerts
-attr fontProviderFallbackQuery
 attr fontProviderFetchStrategy
 attr fontProviderFetchTimeout
 attr fontProviderPackage
@@ -3620,7 +3619,6 @@ drawable ic_clock_black_24dp
 drawable ic_expand_less_22px
 drawable ic_expand_more_22px
 drawable ic_keyboard_black_24dp
-drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
@@ -4183,13 +4181,11 @@ id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
 id tag_accessibility_pane_title
-id tag_compat_insets_dispatch
 id tag_on_apply_window_listener
 id tag_on_receive_content_listener
 id tag_on_receive_content_mime_types
 id tag_screen_reader_focusable
 id tag_state_description
-id tag_system_bar_state_monitor
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
@@ -4234,7 +4230,6 @@ id tvAccuracy
 id tvAnalysis
 id tvConfidence
 id tvHint
-id tvMode
 id tvResult
 id tvScansToday
 id unchecked
@@ -4246,9 +4241,7 @@ id vertical
 id vertical_only
 id view_offset_helper
 id view_transition
-id view_tree_disjoint_parent
 id view_tree_lifecycle_owner
-id view_tree_navigation_event_dispatcher_owner
 id view_tree_on_back_pressed_dispatcher_owner
 id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
@@ -4469,6 +4462,7 @@ layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap prescription
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -5987,7 +5981,7 @@ styleable FloatingActionButton android_enabled backgroundTint backgroundTintMode
 styleable FloatingActionButton_Behavior_Layout behavior_autoHide
 styleable FloatingToolbar backgroundTint marginBottomSystemWindowInsets marginLeftSystemWindowInsets marginRightSystemWindowInsets marginTopSystemWindowInsets
 styleable FlowLayout horizontalItemSpacing lineSpacing
-styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFallbackQuery fontProviderFetchStrategy fontProviderFetchTimeout fontProviderPackage fontProviderQuery fontProviderSystemFontFamily
+styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFetchStrategy fontProviderFetchTimeout fontProviderPackage fontProviderQuery fontProviderSystemFontFamily
 styleable FontFamilyFont android_font android_fontWeight android_fontStyle android_ttcIndex android_fontVariationSettings font fontStyle fontVariationSettings fontWeight ttcIndex
 styleable ForegroundLinearLayout android_foreground android_foregroundGravity foregroundInsidePadding
 styleable Fragment android_name android_id android_tag
