@@ -42,5 +42,5 @@ To transform confusing medical prescriptions into clear, simple instructions tha
 - Android 5.0+ (API 21)
 - Camera permission
   
-## :point_right: Downloa, Install & Test
+## :point_right: Download, Install & Test
  https://drive.google.com/file/d/1qG93-PZIGYD5TtY4myfrNBTKuufOLqvX/view?usp=drive_link
